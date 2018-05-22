@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 
 //Import of Main Components
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer"
+import Header from "./components/Header.js";
+// import Body from "./components/Body.js";
+// import Footer from "./components/Footer.js";
 
-const App = () => {
+const App = () => (
   <div>
     <Header />
-    <Body />
-    <Footer />
+    {/* <Body />
+    <Footer /> */}
   </div>
-}
+);
 
 export default App;
