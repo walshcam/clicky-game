@@ -8,7 +8,7 @@ import Footer from "./components/Footer.js";
 const App = () => (
   <div>
     <Header />
-    {/* <Body /> */}
+    <Body />
     <Footer />
   </div>
 );
