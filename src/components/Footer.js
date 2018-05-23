@@ -6,9 +6,11 @@ const Footer = () => (
         <div className ="container">
             <div className ="content has-text-centered">
                 <p>
-                    <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+                    Website created by <strong><a className = "has-text-grey-dark" href = "https://www.linkedin.com/in/cameron-walsh-aa557215/" target = "_blank">Cameron Walsh</a></strong>.
+                </p>
+                <p>
+                    Made interactive by <strong><a className = "has-text-grey-dark" href = "https://reactjs.org/" target = "_blank">React</a></strong>.
+                    Made beautiful by <strong><a className = "has-text-grey-dark" href = "https://bulma.io/" target = "_blank">Bulma</a></strong>.
                 </p>
             </div>
         </div>
