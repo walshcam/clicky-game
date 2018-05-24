@@ -10,16 +10,18 @@ class Body extends Component {
 
     render() {
         return(
-            <div className = "container">    
-                <div className = "tile is-ancester">
-                    {this.state.players.map(player => (
-                        <PlayerCard
-                            id = {player.id}
-                            image = {player.image}
-                        />
-                    ))}
+            <section class = "section">
+                <div className = "container"> 
+                    <div className = "columns is-multiline">   
+                        {this.state.players.map(player => (
+                                <PlayerCard
+                                    id = {player.id}
+                                    image = {player.image}
+                                />
+                        ))}
+                    </div>
                 </div>
-            </div>
+            </section>
         )
     }
 }
