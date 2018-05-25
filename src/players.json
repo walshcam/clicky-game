@@ -1,50 +1,50 @@
 [
     {
         "id": 0,
-        "image": "./../public/images/adorable-animal-biting-776078.jpg"
+        "image": "./images/adorable-animal-biting-776078.jpg"
     },
     {
         "id": 1,
-        "image": "./../public/images/adorable-animal-blur-825949.jpg"
+        "image": "./images/adorable-animal-blur-825949.jpg"
     },
     {
         "id": 2,
-        "image": "./../public/images/adorable-animal-breed-374906.jpg"
+        "image": "./images/adorable-animal-breed-374906.jpg"
     },
     {
         "id": 3,
-        "image": "./../public/images/animal-background-black-and-white-933498.jpg"
+        "image": "./images/pexels-photo-933498.jpeg"
     },
     {
         "id": 4,
-        "image": "./../public/images/animal-blur-canine-485294.jpg"
+        "image": "./images/animal-blur-canine-485294.jpg"
     },
     {
         "id": 5,
-        "image": "./../public/images/animal-chihuahua-cute-39317.jpg"
+        "image": "./images/animal-chihuahua-cute-39317.jpg"
     },
     {
         "id": 6,
-        "image": "./../public/images/animal-collar-dog-5801.jpg"
+        "image": "./images/animal-collar-dog-8700.jpg"
     },
     {
         "id": 7,
-        "image": "./../public/images/animal-corgi-dog-58997.jpg"
+        "image": "./images/animal-corgi-dog-58997.jpg"
     },
     {
         "id": 8,
-        "image": "./../public/images/animal-cute-dog-5801.jpg"
+        "image": "./images/animal-cute-dog-5801.jpg"
     },
     {
         "id": 9,
-        "image": "./../public/images/baking-bread-breakfast-920220.jpg"
+        "image": "./images/baking-bread-breakfast-920220.jpg"
     },
     {
         "id": 10,
-        "image": "./../public/images/blur-bread-close-up-906054.jpg"
+        "image": "./images/blur-bread-close-up-906054.jpg"
     },
     {
         "id": 11,
-        "image": "./../public/images/cute-dog-furry-69372.jpg"
+        "image": "./images/cute-dog-furry-69372.jpg"
     }
 ]

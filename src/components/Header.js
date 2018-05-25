@@ -8,7 +8,7 @@ const Header = () => (
                     The Clicky Game!
                 </h1>
                 <h2 className="subtitle">
-                    Can you get the high score?
+                    Click on each object only once to get the high score!
                 </h2>
             </div>
         </div>
