@@ -80,7 +80,7 @@ reshuffleCards = event => {
 render() {
     return(
 
-    <div className = "has-navbar-fixed-top">
+    <div>
       <TopBar 
         count = {this.state.count}
         maxCount = {this.state.maxCount}
