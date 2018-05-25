@@ -3,8 +3,8 @@ import "./PlayerCard.css"
 
 const PlayerCard = (props) => (
 
-    <div className = "column is-2 is-parent" id = {props.id} onClick = {props.onClick}>
-        <div className = "tile is-child box">
+    <div className = "column is-2 is-parent">
+        <div className = "tile is-child box" id = {props.id} onClick = {() => props.choosePicture(props.id)}>
             <figure className ="image is-4by3">
                 <img src= {props.image} alt = "Dog" />
             </figure>

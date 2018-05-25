@@ -1,6 +1,6 @@
 import React from "react";
 
-const TopBar = () => (
+const TopBar = (props) => (
 
     <nav className = "navbar is-fixed-top has-text-centered">
         <div className = "navbar-start navbar-item">
@@ -12,7 +12,7 @@ const TopBar = () => (
         </div> */}
 
         <div className = "navbar-end navbar-item">
-            <h1 className = "is-size-3">Top Score: 0 | High Score: 0</h1>
+            <h1 className = "is-size-3">Top Score: {props.count} | High Score: {props.maxCount}</h1>
         </div>
     </nav>
 
