@@ -14,9 +14,12 @@ class Body extends Component {
     //Reshuffles the cards after mouse click
     reshuffleCards = event => {
         // this.getCardValue(id)
-        console.log(`Click Event: ${event}`);
+        console.log(`Click Event: ${this.state.id}`);
         shuffle.shuffle(players)
-        this.setState({players: players});
+        this.setState({
+            id: "",
+            players: players
+        });
     };
 
     // getCardValue = (id) => {
@@ -25,10 +28,10 @@ class Body extends Component {
     //     console.log(this.chosenCards);
     // }
 
-    // clickEvent = (event, id) => {
-    //     this.reshuffleCards;
-    //     this.getCardValue(id);
-    // }
+    choosePicture = id => {
+        console.log(`ID: ${id}`);
+        this.chosenCards.push(id);
+    }
 
 
     //Render the body with card pictures
@@ -41,6 +44,8 @@ class Body extends Component {
                                 <PlayerCard
                                     id = {player.id}
                                     key = {player.id}
+                                    name = "id"
+                                    value = {this.state.id}
                                     image = {player.image}
                                     onClick = {this.reshuffleCards}   
                                 />
