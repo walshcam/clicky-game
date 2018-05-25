@@ -5,3 +5,7 @@
 .is-child:active {
     border: 2px solid rgba(0,0,0,0.4)
 }
+
+.box {
+    padding: 0px;
+}

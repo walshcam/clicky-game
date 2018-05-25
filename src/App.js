@@ -6,6 +6,8 @@ import Header from "./components/Header.js";
 import Body from "./components/Body.js";
 import Footer from "./components/Footer.js";
 import PlayerCard from "./components/PlayerCard"
+import Modal from "./components/Modal.js"
+
 import players from "./players.json";
 import shuffle from "./utils/shuffle.js";
 
@@ -15,6 +17,7 @@ class App extends Component {
 
    //This sets the state of the players
    state = {
+    isActive: "modal",
     count: 0,
     maxCount: 0,
     chosenCards: players,
@@ -43,8 +46,7 @@ reshuffleCards = event => {
     const chosenCards = this.state.chosenCards.filter(chosen => chosen.id !== id);
     if (originalChosenCardsLength - chosenCards.length === 0) {
       this.setState({
-        count: 0,
-        chosenCards: players
+        isActive: "modal is-active"
       })
     }
     else{
@@ -63,6 +65,14 @@ reshuffleCards = event => {
       }
     }
     this.reshuffleCards();
+  }
+
+  closeModal = () => {
+    this.setState({
+      isActive: "modal",
+      count: 0,
+      chosenCards: players
+    })
   }
 
 
@@ -87,6 +97,11 @@ render() {
         ))}
       </Body>
       <Footer />
+      <Modal 
+        count = {this.state.count}
+        isActive = {this.state.isActive}  
+        closeModal = {this.closeModal}
+      />
     </div>
     )
   }
